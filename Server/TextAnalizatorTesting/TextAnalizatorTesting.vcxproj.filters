@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="..\BoostStart\TextAnalizator.cpp">
+      <Filter>TextAnalizatorSource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="TextAnalizatorSource">
+      <UniqueIdentifier>{7776d504-777b-4d4a-a63a-c8ae31a36bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestData">
+      <UniqueIdentifier>{0ce9eb77-1e8f-44bf-aafa-577c0ba43af2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BoostStart\TextAnalizator.h">
+      <Filter>TextAnalizatorSource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestData\alice.txt">
+      <Filter>TestData</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
